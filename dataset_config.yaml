@@ -1,0 +1,51 @@
+# Dataset Creation Configuration
+
+# OpenAI Configuration
+openai:
+  model: "gpt-4o"
+  temperature: 0.1
+  max_tokens: 4000
+  delay_between_calls: 1.0  # seconds
+
+# Dataset Configuration
+dataset:
+  input_source: "msc"  # MSC dataset
+  output_dimension: 1000  # 959 traits + 41 padding
+  max_conversations: 100  # Limit for processing
+  min_conversation_length: 5  # Minimum lines for a conversation
+
+# Personality Traits
+personality:
+  source_file: "mindcode.xlsx"
+  num_traits: 760  # Actual number after removing NaN values
+  score_range: [0, 1]  # Min, Max scores (normalized)
+  sparse_threshold: 0.3  # Scores above this are considered "active"
+
+# Output Configuration
+output:
+  format: "jsonl"  # JSON Lines format
+  include_metadata: true
+  include_raw_conversation: true
+  include_personality_scores: true
+  include_sparse_vector: true
+
+# Processing Configuration
+processing:
+  batch_size: 1  # Process one conversation at a time
+  save_progress: true
+  log_level: "INFO"
+  create_backup: true
+
+# File Paths
+paths:
+  msc_data: "data/parlai_msc"
+  output_dir: "data/personality_dataset"
+  logs_dir: "logs"
+  temp_dir: "temp"
+
+# Quality Control
+quality:
+  skip_short_conversations: true
+  validate_scores: true
+  check_vector_dimensions: true
+  log_errors: true 
