@@ -1,0 +1,656 @@
+{
+  "selected_traits": [
+    {
+      "id": 21,
+      "name_cn": "是否反应速度快",
+      "name_en": "Fast Response Speed",
+      "description_cn": "思考或应答是否迅速",
+      "description_en": "Whether the person responds quickly in thought or speech",
+      "score": null
+    },
+    {
+      "id": 22,
+      "name_cn": "是否信息处理能力强",
+      "name_en": "Information Processing Ability",
+      "description_cn": "能否处理大量信息并做出判断",
+      "description_en": "Whether the person can process and synthesize large amounts of information effectively",
+      "score": null
+    },
+    {
+      "id": 23,
+      "name_cn": "是否能多线程处理问题",
+      "name_en": "Multitasking in Thinking",
+      "description_cn": "是否能同时处理多个问题",
+      "description_en": "Whether the person can handle multiple cognitive threads simultaneously",
+      "score": null
+    },
+    {
+      "id": 24,
+      "name_cn": "是否有长期规划意识",
+      "name_en": "Long-term Planning Awareness",
+      "description_cn": "是否有明确未来方向和步骤",
+      "description_en": "Whether the person has a clear sense of long-term planning",
+      "score": null
+    },
+    {
+      "id": 25,
+      "name_cn": "是否自我反思频繁",
+      "name_en": "Frequent Self-Reflection",
+      "description_cn": "是否常常回顾自己的行为与思考",
+      "description_en": "Whether the person frequently reflects on their own behavior and thoughts",
+      "score": null
+    },
+    {
+      "id": 26,
+      "name_cn": "是否在意逻辑一致性",
+      "name_en": "Logical Consistency Concern",
+      "description_cn": "是否对前后逻辑连贯性高度敏感",
+      "description_en": "Whether the person is sensitive to logical consistency",
+      "score": null
+    },
+    {
+      "id": 27,
+      "name_cn": "是否能提炼要点",
+      "name_en": "Ability to Extract Key Points",
+      "description_cn": "是否能从复杂内容中抓住核心",
+      "description_en": "Whether the person can extract the key points from complexity",
+      "score": null
+    },
+    {
+      "id": 28,
+      "name_cn": "是否有独立思考能力",
+      "name_en": "Independent Thinking",
+      "description_cn": "是否不轻易随从他人意见",
+      "description_en": "Whether the person thinks independently without easily following others",
+      "score": null
+    },
+    {
+      "id": 29,
+      "name_cn": "是否习惯数据支持",
+      "name_en": "Data-Oriented Thinking",
+      "description_cn": "是否倾向用数据支撑判断",
+      "description_en": "Whether the person prefers to use data to support their judgments",
+      "score": null
+    },
+    {
+      "id": 30,
+      "name_cn": "是否接受模糊性",
+      "name_en": "Tolerance for Ambiguity",
+      "description_cn": "是否能接受不确定、不清晰的状态",
+      "description_en": "Whether the person can tolerate uncertainty and ambiguity",
+      "score": null
+    },
+    {
+      "id": 31,
+      "name_cn": "是否喜欢生成自己的逻辑体系",
+      "name_en": "Creating Own Logic System",
+      "description_cn": "是否构建个人认知逻辑而非盲从常规",
+      "description_en": "Whether the person constructs personal logic systems rather than following convention",
+      "score": null
+    },
+    {
+      "id": 32,
+      "name_cn": "是否能承认“我不知道”",
+      "name_en": "Able to Say 'I Don't Know'",
+      "description_cn": "是否愿意面对知识盲区",
+      "description_en": "Whether the person openly admits lack of knowledge",
+      "score": null
+    },
+    {
+      "id": 33,
+      "name_cn": "是否偏好解决型思维",
+      "name_en": "Solution-Oriented Thinking",
+      "description_cn": "是否倾向在问题中寻找解决路径",
+      "description_en": "Whether the person focuses on finding solutions",
+      "score": null
+    },
+    {
+      "id": 34,
+      "name_cn": "是否容易纠结于定义",
+      "name_en": "Obsession with Definitions",
+      "description_cn": "是否容易被概念边界卡住",
+      "description_en": "Whether the person gets stuck on definitions and conceptual limits",
+      "score": null
+    },
+    {
+      "id": 35,
+      "name_cn": "是否喜欢分类",
+      "name_en": "Categorization Habit",
+      "description_cn": "是否习惯为事物归类",
+      "description_en": "Whether the person tends to classify and categorize things",
+      "score": null
+    },
+    {
+      "id": 36,
+      "name_cn": "是否追求终极解释",
+      "name_en": "Pursuit of Ultimate Explanation",
+      "description_cn": "是否喜欢探究‘终极真相’",
+      "description_en": "Whether the person seeks ultimate explanations",
+      "score": null
+    },
+    {
+      "id": 37,
+      "name_cn": "是否看重本质而非表象",
+      "name_en": "Essence over Appearance",
+      "description_cn": "是否重视事物本质",
+      "description_en": "Whether the person values essence over appearance",
+      "score": null
+    },
+    {
+      "id": 38,
+      "name_cn": "是否能接受悖论",
+      "name_en": "Acceptance of Paradox",
+      "description_cn": "是否能接受两种矛盾共存的事实",
+      "description_en": "Whether the person can accept the coexistence of contradictions",
+      "score": null
+    },
+    {
+      "id": 39,
+      "name_cn": "是否主动建立知识体系",
+      "name_en": "Knowledge System Builder",
+      "description_cn": "是否倾向自建知识架构",
+      "description_en": "Whether the person tends to build personal knowledge systems",
+      "score": null
+    },
+    {
+      "id": 40,
+      "name_cn": "是否对知识有控制欲",
+      "name_en": "Control over Knowledge",
+      "description_cn": "是否倾向掌握所有可知信息",
+      "description_en": "Whether the person desires control over knowledge",
+      "score": null
+    },
+    {
+      "id": 41,
+      "name_cn": "是否在高压下保持理性",
+      "name_en": "Rational Under Pressure",
+      "description_cn": "在压力环境下是否仍然理性决策",
+      "description_en": "Whether the person maintains rationality under pressure",
+      "score": null
+    },
+    {
+      "id": 42,
+      "name_cn": "是否情绪稳定",
+      "name_en": "Emotional Stability",
+      "description_cn": "情绪是否容易波动",
+      "description_en": "Whether the person's emotions are stable",
+      "score": null
+    },
+    {
+      "id": 43,
+      "name_cn": "是否容易冲动",
+      "name_en": "Impulsiveness",
+      "description_cn": "是否容易不经深思即做决定",
+      "description_en": "Whether the person acts impulsively",
+      "score": null
+    },
+    {
+      "id": 44,
+      "name_cn": "是否有同理心",
+      "name_en": "Empathy",
+      "description_cn": "能否理解他人情感与处境",
+      "description_en": "Whether the person can understand others' emotions and situations",
+      "score": null
+    },
+    {
+      "id": 45,
+      "name_cn": "是否倾向内省",
+      "name_en": "Introspection Tendency",
+      "description_cn": "是否常自我反思与检讨",
+      "description_en": "Whether the person tends to self-reflect",
+      "score": null
+    },
+    {
+      "id": 46,
+      "name_cn": "是否容易感到内疚",
+      "name_en": "Guilt Sensitivity",
+      "description_cn": "是否容易对错误产生愧疚感",
+      "description_en": "Whether the person often feels guilty for mistakes",
+      "score": null
+    },
+    {
+      "id": 47,
+      "name_cn": "是否倾向原谅他人",
+      "name_en": "Forgiveness Tendency",
+      "description_cn": "是否能轻易释怀他人错误",
+      "description_en": "Whether the person tends to forgive others",
+      "score": null
+    },
+    {
+      "id": 48,
+      "name_cn": "是否压抑情绪",
+      "name_en": "Emotional Suppression",
+      "description_cn": "是否习惯隐藏或压制情绪",
+      "description_en": "Whether the person suppresses or hides emotions",
+      "score": null
+    },
+    {
+      "id": 49,
+      "name_cn": "是否情绪表达清晰",
+      "name_en": "Clear Emotional Expression",
+      "description_cn": "是否能准确表达情绪",
+      "description_en": "Whether the person expresses emotions clearly",
+      "score": null
+    },
+    {
+      "id": 50,
+      "name_cn": "是否情绪感染力强",
+      "name_en": "Emotional Influence",
+      "description_cn": "是否能带动他人情绪",
+      "description_en": "Whether the person influences others' emotions",
+      "score": null
+    },
+    {
+      "id": 51,
+      "name_cn": "是否面对批评有防御反应",
+      "name_en": "Defensiveness to Criticism",
+      "description_cn": "是否一被批评就产生自我防御",
+      "description_en": "Whether the person becomes defensive when criticized",
+      "score": null
+    },
+    {
+      "id": 52,
+      "name_cn": "是否具有羞耻心",
+      "name_en": "Sense of Shame",
+      "description_cn": "是否对道德失当有羞耻感",
+      "description_en": "Whether the person feels shame for moral failures",
+      "score": null
+    },
+    {
+      "id": 53,
+      "name_cn": "是否容易嫉妒",
+      "name_en": "Jealousy Tendency",
+      "description_cn": "是否对他人优势产生强烈嫉妒",
+      "description_en": "Whether the person experiences jealousy easily",
+      "score": null
+    },
+    {
+      "id": 54,
+      "name_cn": "是否容易感动",
+      "name_en": "Emotional Sensitivity",
+      "description_cn": "是否容易因情感触动而感动",
+      "description_en": "Whether the person is emotionally sensitive and touched easily",
+      "score": null
+    },
+    {
+      "id": 55,
+      "name_cn": "是否乐观",
+      "name_en": "Optimism",
+      "description_cn": "是否对未来持积极态度",
+      "description_en": "Whether the person maintains a positive outlook on the future",
+      "score": null
+    },
+    {
+      "id": 56,
+      "name_cn": "是否悲观",
+      "name_en": "Pessimism",
+      "description_cn": "是否容易对未来失去信心",
+      "description_en": "Whether the person tends to lose hope for the future",
+      "score": null
+    },
+    {
+      "id": 57,
+      "name_cn": "是否易焦虑",
+      "name_en": "Anxiety Proneness",
+      "description_cn": "是否常感紧张、焦虑",
+      "description_en": "Whether the person is prone to anxiety",
+      "score": null
+    },
+    {
+      "id": 58,
+      "name_cn": "是否控制欲强",
+      "name_en": "Desire for Control",
+      "description_cn": "是否希望掌控局势和他人",
+      "description_en": "Whether the person desires to control situations or people",
+      "score": null
+    },
+    {
+      "id": 59,
+      "name_cn": "是否能坦然接受失败",
+      "name_en": "Acceptance of Failure",
+      "description_cn": "是否对失败有接纳和复原力",
+      "description_en": "Whether the person accepts failure calmly and recovers quickly",
+      "score": null
+    },
+    {
+      "id": 60,
+      "name_cn": "是否表现出羞涩",
+      "name_en": "Shyness",
+      "description_cn": "是否在社交中易表现羞怯",
+      "description_en": "Whether the person shows shyness in social settings",
+      "score": null
+    },
+    {
+      "id": 61,
+      "name_cn": "是否愿意寻求帮助",
+      "name_en": "Help-Seeking Tendency",
+      "description_cn": "在困难中是否主动求助",
+      "description_en": "Whether the person seeks help when facing difficulties",
+      "score": null
+    },
+    {
+      "id": 62,
+      "name_cn": "是否对新鲜事物有好奇心",
+      "name_en": "Curiosity",
+      "description_cn": "是否对未知世界有探索欲",
+      "description_en": "Whether the person is curious about new or unknown things",
+      "score": null
+    },
+    {
+      "id": 63,
+      "name_cn": "是否愿意承担风险",
+      "name_en": "Risk Taking",
+      "description_cn": "是否愿意面对不确定并付诸行动",
+      "description_en": "Whether the person is willing to take risks",
+      "score": null
+    },
+    {
+      "id": 64,
+      "name_cn": "是否抗拒权威",
+      "name_en": "Resistance to Authority",
+      "description_cn": "是否倾向挑战规则与制度",
+      "description_en": "Whether the person resists authority or established rules",
+      "score": null
+    },
+    {
+      "id": 65,
+      "name_cn": "是否具独立人格",
+      "name_en": "Individualism",
+      "description_cn": "是否强调自我风格与独立性",
+      "description_en": "Whether the person emphasizes self-style and individuality",
+      "score": null
+    },
+    {
+      "id": 66,
+      "name_cn": "是否具集体意识",
+      "name_en": "Collective Orientation",
+      "description_cn": "是否强调团队协作与群体归属",
+      "description_en": "Whether the person values teamwork and group identity",
+      "score": null
+    },
+    {
+      "id": 67,
+      "name_cn": "是否容易妥协",
+      "name_en": "Compromise Tendency",
+      "description_cn": "是否在冲突中倾向让步",
+      "description_en": "Whether the person tends to compromise in conflicts",
+      "score": null
+    },
+    {
+      "id": 68,
+      "name_cn": "是否喜欢竞争",
+      "name_en": "Competitiveness",
+      "description_cn": "是否渴望在比较中胜出",
+      "description_en": "Whether the person enjoys and seeks competition",
+      "score": null
+    },
+    {
+      "id": 69,
+      "name_cn": "是否愿意服从",
+      "name_en": "Obedience",
+      "description_cn": "是否愿意服从权威或规范",
+      "description_en": "Whether the person tends to obey authority or norms",
+      "score": null
+    },
+    {
+      "id": 70,
+      "name_cn": "是否易迁就他人",
+      "name_en": "People-Pleasing",
+      "description_cn": "是否常常为了和谐牺牲自己",
+      "description_en": "Whether the person sacrifices self for harmony",
+      "score": null
+    },
+    {
+      "id": 71,
+      "name_cn": "是否会主动承担责任",
+      "name_en": "Responsibility Taking",
+      "description_cn": "是否愿意为后果承担责任",
+      "description_en": "Whether the person takes responsibility for outcomes",
+      "score": null
+    },
+    {
+      "id": 72,
+      "name_cn": "是否在意他人评价",
+      "name_en": "Concern for Others’ Opinions",
+      "description_cn": "是否高度关注别人怎么看自己",
+      "description_en": "Whether the person cares about others' evaluations",
+      "score": null
+    },
+    {
+      "id": 73,
+      "name_cn": "是否易自我怀疑",
+      "name_en": "Self-Doubt",
+      "description_cn": "是否频繁对自我能力产生质疑",
+      "description_en": "Whether the person frequently doubts their own abilities",
+      "score": null
+    },
+    {
+      "id": 74,
+      "name_cn": "是否坚持自我",
+      "name_en": "Persistence of Self",
+      "description_cn": "是否在外部压力下坚持自我选择",
+      "description_en": "Whether the person persists in their own choices under pressure",
+      "score": null
+    },
+    {
+      "id": 75,
+      "name_cn": "是否倾向模仿他人",
+      "name_en": "Imitative Behavior",
+      "description_cn": "是否习惯复制他人行为模式",
+      "description_en": "Whether the person tends to imitate others",
+      "score": null
+    },
+    {
+      "id": 76,
+      "name_cn": "是否主动探索未知",
+      "name_en": "Exploratory Behavior",
+      "description_cn": "是否积极探索新领域",
+      "description_en": "Whether the person actively explores new areas",
+      "score": null
+    },
+    {
+      "id": 77,
+      "name_cn": "是否情绪容易受音乐/艺术触动",
+      "name_en": "Emotional Reaction to Art",
+      "description_cn": "是否对艺术感受力强",
+      "description_en": "Whether the person is emotionally moved by art",
+      "score": null
+    },
+    {
+      "id": 78,
+      "name_cn": "是否有精神寄托或信仰",
+      "name_en": "Spiritual or Ideological Anchor",
+      "description_cn": "是否有信仰体系支撑人生",
+      "description_en": "Whether the person holds a belief system or spiritual framework",
+      "score": null
+    },
+    {
+      "id": 79,
+      "name_cn": "是否倾向日常仪式化行为",
+      "name_en": "Ritual Behavior",
+      "description_cn": "是否注重固定习惯与日常仪式感",
+      "description_en": "Whether the person values routines and rituals in daily life",
+      "score": null
+    },
+    {
+      "id": 80,
+      "name_cn": "是否倾向活在当下",
+      "name_en": "Present Moment Focus",
+      "description_cn": "是否专注于当下而非过去未来",
+      "description_en": "Whether the person focuses on the present moment",
+      "score": null
+    },
+    {
+      "id": 81,
+      "name_cn": "是否具远见",
+      "name_en": "Visionary Thinking",
+      "description_cn": "是否具备远期战略性思维",
+      "description_en": "Whether the person exhibits strategic foresight",
+      "score": null
+    },
+    {
+      "id": 82,
+      "name_cn": "是否常反复做决定",
+      "name_en": "Decision Reversal Tendency",
+      "description_cn": "是否做事反复纠结犹豫",
+      "description_en": "Whether the person tends to reverse or revisit decisions",
+      "score": null
+    },
+    {
+      "id": 83,
+      "name_cn": "是否会在公共场合演讲",
+      "name_en": "Public Speaking Willingness",
+      "description_cn": "是否能在公众场合表达观点",
+      "description_en": "Whether the person is comfortable speaking publicly",
+      "score": null
+    },
+    {
+      "id": 84,
+      "name_cn": "是否适应多文化环境",
+      "name_en": "Cross-Cultural Adaptability",
+      "description_cn": "是否能适应多种文化背景",
+      "description_en": "Whether the person adapts well to cross-cultural contexts",
+      "score": null
+    },
+    {
+      "id": 85,
+      "name_cn": "是否坚持原则",
+      "name_en": "Principled Behavior",
+      "description_cn": "是否在压力下仍然坚持道德底线",
+      "description_en": "Whether the person maintains principles under pressure",
+      "score": null
+    },
+    {
+      "id": 86,
+      "name_cn": "是否易受群体情绪影响",
+      "name_en": "Susceptibility to Group Emotion",
+      "description_cn": "是否容易情绪跟随群体变化",
+      "description_en": "Whether the person is emotionally influenced by group dynamics",
+      "score": null
+    },
+    {
+      "id": 87,
+      "name_cn": "是否表达需求清晰",
+      "name_en": "Clarity in Expressing Needs",
+      "description_cn": "是否能准确表达自己的需求",
+      "description_en": "Whether the person clearly expresses their needs",
+      "score": null
+    },
+    {
+      "id": 88,
+      "name_cn": "是否有清晰的自我定位",
+      "name_en": "Clear Self-Identity",
+      "description_cn": "是否对自己角色与价值有明确认知",
+      "description_en": "Whether the person has a clear self-concept",
+      "score": null
+    },
+    {
+      "id": 89,
+      "name_cn": "是否有目标导向性",
+      "name_en": "Goal Orientation",
+      "description_cn": "是否行为以目标为中心",
+      "description_en": "Whether the person acts according to clear goals",
+      "score": null
+    },
+    {
+      "id": 90,
+      "name_cn": "是否时间观念强",
+      "name_en": "Strong Time Orientation",
+      "description_cn": "是否注重时间效率与计划",
+      "description_en": "Whether the person values time and planning",
+      "score": null
+    },
+    {
+      "id": 91,
+      "name_cn": "是否注重细节",
+      "name_en": "Attention to Detail",
+      "description_cn": "是否对细节精准要求",
+      "description_en": "Whether the person pays attention to fine details",
+      "score": null
+    },
+    {
+      "id": 92,
+      "name_cn": "是否愿意接受他人反馈",
+      "name_en": "Receptive to Feedback",
+      "description_cn": "是否乐于接纳他人建议与批评",
+      "description_en": "Whether the person is open to feedback and criticism",
+      "score": null
+    },
+    {
+      "id": 93,
+      "name_cn": "是否面对陌生环境焦虑",
+      "name_en": "Stranger Environment Anxiety",
+      "description_cn": "是否在陌生环境中易焦虑",
+      "description_en": "Whether the person gets anxious in unfamiliar settings",
+      "score": null
+    },
+    {
+      "id": 94,
+      "name_cn": "是否习惯整理归纳",
+      "name_en": "Organizing Habit",
+      "description_cn": "是否习惯将信息条理化整理",
+      "description_en": "Whether the person organizes and categorizes information habitually",
+      "score": null
+    },
+    {
+      "id": 95,
+      "name_cn": "是否对未来焦虑",
+      "name_en": "Future Anxiety",
+      "description_cn": "是否对未来发展担忧",
+      "description_en": "Whether the person feels anxiety about the future",
+      "score": null
+    },
+    {
+      "id": 96,
+      "name_cn": "是否相信命运",
+      "name_en": "Belief in Fate",
+      "description_cn": "是否认为命运无法改变",
+      "description_en": "Whether the person believes in unchangeable destiny",
+      "score": null
+    },
+    {
+      "id": 97,
+      "name_cn": "是否相信个人努力能改变命运",
+      "name_en": "Belief in Effort Over Fate",
+      "description_cn": "是否相信靠努力能改写人生",
+      "description_en": "Whether the person believes effort can alter fate",
+      "score": null
+    },
+    {
+      "id": 98,
+      "name_cn": "是否善于表达爱",
+      "name_en": "Ability to Express Love",
+      "description_cn": "是否能清晰传递情感与爱意",
+      "description_en": "Whether the person expresses love effectively",
+      "score": null
+    },
+    {
+      "id": 99,
+      "name_cn": "是否常感孤独",
+      "name_en": "Tendency to Feel Lonely",
+      "description_cn": "是否时常感到孤独无依",
+      "description_en": "Whether the person often feels lonely or disconnected",
+      "score": null
+    },
+    {
+      "id": 100,
+      "name_cn": "是否具亲密关系恐惧",
+      "name_en": "Fear of Intimacy",
+      "description_cn": "是否害怕与人建立深层关系",
+      "description_en": "Whether the person fears deep interpersonal intimacy",
+      "score": null
+    }
+  ],
+  "total_traits": 80,
+  "source_file": "mindcode_test.xlsx",
+  "cleaning_info": {
+    "original_rows": 300,
+    "cleaned_rows": 80,
+    "removed_rows": 220
+  },
+  "metadata": {
+    "description": "80 most important personality traits from mindcode_test.xlsx",
+    "selection_method": "pre-selected and cleaned",
+    "cleaning_date": "2025-08-06T22:09:38.590056"
+  }
+}
